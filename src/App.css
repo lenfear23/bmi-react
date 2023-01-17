@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.center{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont{
+  padding: 30px 30px;
+  width: 50%;
+  min-height: 100vh;
+}
+.inputsCont{
+  background-color: orange;
+  color: white;
+  padding: 30px 30px;
+  text-align: left;
+}
+input{
+  float: right;
+  outline: none;
+  border: none;
+  height: 20px;
+}
+button{
+  background-color: white;
+  color: orange;
+  width: 70px;
+  height: 30px;
+  outline: none;
+  margin-top: 20px;
+  border: none;
+}
+p{
+  text-align: left;
+  font-size: 25px;
+  color: orange;
+}
+table{
+  margin: auto;
+  width: 60%;
+}
+td:nth-child(1){
+  text-align: center;
+  font-weight: bold;
+}
+td:nth-child(2){
+  text-align: left;
+}
+td{
+  border-bottom: 1px gray solid;
+  height: 40px;
 }
